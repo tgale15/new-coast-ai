@@ -1,0 +1,6 @@
+streamlit
+pandas
+psycopg2-binary
+plotly
+google-auth
+google-api-python-client
