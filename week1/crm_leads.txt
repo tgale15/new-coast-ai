@@ -1,0 +1,6 @@
+lead_id,name,email,phone,inquiry_date,zipcode,property_type,status
+1,Alice Smith,alice@example.com,843-555-1234,2024-03-28,29910,Waterfront Condo,new
+2,Bob Martinez,bob@example.com,843-555-2345,2024-03-29,29927,Single Family,contacted
+3,Cara Lee,cara@example.com,843-555-3456,2024-03-30,29936,Townhome,hot lead
+4,David Johnson,david@invest.com,843-555-4567,2024-04-01,29902,Rental Duplex,investor
+5,Ellie Thompson,ellie@example.com,843-555-5678,2024-04-03,29926,Fixer Upper,cold
