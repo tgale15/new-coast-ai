@@ -20,7 +20,7 @@ if "notified_leads" not in st.session_state:
 # Database connection
 def get_connection():
     return psycopg2.connect(
-        host="cypkfsuwwyifpaiqvvjg.supabase.co",
+        host="db.cypkfsuwwyifpaiqvvjg.supabase.co",  # <-- add db. here
         database="postgres",
         user="postgres",
         password="Apple1317..!!",
