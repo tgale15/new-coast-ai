@@ -20,12 +20,7 @@ if "notified_leads" not in st.session_state:
 # Database connection
 def get_connection():
     return psycopg2.connect(
-        host="db.cypkfsuwwyifpaiqvvjg.supabase.co",  # <-- add db. here
-        database="postgres",
-        user="postgres",
-        password="Apple1317..!!",
-        port="5432",
-        sslmode="require"
+        "postgresql://postgres:Apple1317..!!@db.cypkfsuwwyifpaiqvvjg.supabase.co:5432/postgres?sslmode=require"
     )
 
 # 🌙 Dark Theme + Apple-style Visuals
